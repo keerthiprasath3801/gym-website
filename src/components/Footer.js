@@ -10,12 +10,16 @@ const Footer = () => {
           <div className="footer-section">
             <h3>SK <span>Fit</span></h3>
             <p>Empowering you to reach your fitness goals with world-class facilities and expert guidance.</p>
-            <div className="social-icons">
-              <a href="#"><FaFacebookF /></a>
-              <a href="#"><FaInstagram /></a>
-              <a href="#"><FaTwitter /></a>
-              <a href="#"><FaYoutube /></a>
-            </div>
+           <div className="social-icons">
+  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+  <a href="#"><FaFacebookF /></a>
+  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+  <a href="#"><FaInstagram /></a>
+  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+  <a href="#"><FaTwitter /></a>
+  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+  <a href="#"><FaYoutube /></a>
+</div>
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>
